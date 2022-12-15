@@ -10,4 +10,4 @@ How it works?
 <br>
 <br>
 <br>
-Note: It does not depend on a time server, the time and date of your current device is the one being used.
+Note: It does not depend on a time server, the time and date of your current device is the one being used. So, it is possible to use it offline.
