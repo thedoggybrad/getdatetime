@@ -7,18 +7,42 @@
 <link rel="icon" type="image/x-icon" href="https://thedoggybrad.github.io/getdatetime/unnamed.png?">
 <title>What is my current date and time?</title>
 
-  <center><h1>What is my current date and time?</h1></center>
+<center><h1>What is my current date and time?</h1></center>
 
-<center><h1><span id="time"> </span></h1></center>
+<center><h1><span id="time"></span></h1></center>
 <script>
 `use strict`;
 function refreshTime() {
   const timeDisplay = document.getElementById("time");
-  const dateString = new Date().toLocaleString();
+  const dateString = new Date().toLocaleTimeString();
   const formattedString = dateString.replace(", ", " - ");
   timeDisplay.textContent = formattedString;
 }
   setInterval(refreshTime, 1000);
+</script>
+
+<div></div>
+
+<center><h1><span id="date"></span></h1></center>
+<script>
+`use strict`;
+function refreshTime() {
+  const timeDisplay = document.getElementById("date");
+  const dateString = new Date().toLocaleDateString();
+  const formattedString = dateString.replace(", ", " - ");
+  timeDisplay.textContent = formattedString;
+}
+  setInterval(refreshTime, 1000);
+</script>
+
+<center><h2 id="day"></h2></center>
+
+<script>
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date();
+let day = weekday[d.getDay()];
+document.getElementById("day").innerHTML = day;
 </script>
 
 </head>
