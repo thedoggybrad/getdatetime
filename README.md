@@ -1,5 +1,5 @@
 # getdatetime
-A simple HTML Code that gets your current time in Month/Day/Year - H:M:S format.
+A simple HTML Code that gets your current time in Month/Day/Year - H:MM:SS format.
 <br>
 <br>
 How it works?
