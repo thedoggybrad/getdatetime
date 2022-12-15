@@ -6,7 +6,7 @@ How it works?
 <br>
 1.) It gets your current date and time via JavaScript.
 <br>
-2.) It syncs the current date and time via JavaScript.
+2.) It sync the current date and time via JavaScript.
 <br>
 <br>
 <br>
