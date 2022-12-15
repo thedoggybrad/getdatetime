@@ -6,6 +6,22 @@
 <meta name="viewport" content="width=device-width, initial scale=1.0">
 <link rel="icon" type="image/x-icon" href="https://thedoggybrad.github.io/getdatetime/unnamed.png?">
 <title>What is my current date and time?</title>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
 
 <center><h1>What is my current date and time?</h1></center>
 
@@ -46,7 +62,13 @@ document.getElementById("day").innerHTML = day;
   setInterval(refreshTime, 1000);
 </script>
 
-</head>
-<body>
+<center><button onclick="myFunction()">Toggle dark mode</button></center>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
 </body>
 </html>
