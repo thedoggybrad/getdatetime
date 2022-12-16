@@ -25,7 +25,7 @@
     // so we need the `color` value.
     themeColor.content = getComputedStyle(body).color;
     colorScheme.content = e.detail.colorScheme;
-    icon.href = e.detail.colorScheme === 'dark' ? 'moon.png' : 'sun.png';
+    icon.href = e.detail.colorScheme === 'dark' ? 'https://thedoggybrad.github.io/getdatetime/resources/moon.png' : 'https://thedoggybrad.github.io/getdatetime/resources/sun.png';
     console.log(
         `${e.target.id} changed the color scheme to ${e.detail.colorScheme}`,
     );
