@@ -8,6 +8,9 @@
 <title>What is my current date and time?</title>
  <meta name="color-scheme" content="dark light" />
     <meta name="theme-color" content="" />
+<link rel="manifest" href="pwa/manifest.json">
+  <script src="pwa/service_worker_check.js"></script>
+  <script src="pwa/service_worker_main.js"></script>
     <script>
       // If `prefers-color-scheme` is not supported, it will fall back to light mode.
       // In this case, light.css will be downloaded with `highest` priority.
@@ -63,9 +66,6 @@ let day = weekday[d.getDay()];
 document.getElementById("day").innerHTML = day;
   setInterval(refreshTime, 1000);
 </script>
-  <link rel="manifest" href="pwa/manifest.json">
-  <script src="pwa/service_worker_check.js"></script>
-  <script src="pwa/service_worker_main.js">
 </head>
 <body>
    <dark-mode-toggle
