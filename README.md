@@ -13,7 +13,7 @@ How it works?
 Note: It does not depend on a time server, the time and date of your current device is the one being used. So, it is possible to use it offline.
 <br>
 <br>
-## Instructions for the PWA game installation (Works even you are offline)
+## Instructions for the PWA app installation (Works even you are offline)
 1.) Mobile Browsers
 <br>
 -To install the app, just click the 3 dots (or similar on other browsers) then click Install App. 
