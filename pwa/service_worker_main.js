@@ -11,6 +11,8 @@ const resourceList = [
 
 'https://thedoggybrad.github.io/getdatetime/resources/dark-mode-toggle.mjs',
 
+'https://thedoggybrad.github.io/getdatetime/resources/common.css',
+
 'https://thedoggybrad.github.io/getdatetime/resources/dark.css',
 
 'https://thedoggybrad.github.io/getdatetime/resources/light.css',
