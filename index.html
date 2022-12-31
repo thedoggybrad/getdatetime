@@ -99,5 +99,19 @@ document.getElementById("day").innerHTML = day;
    <script src="pwa/service_worker_check.js"></script>
   <script src="pwa/service_worker_main.js"></script>
 
+ <style>
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+</style>
+
+<script>
+window.addEventListener("contextmenu", e => e.preventDefault());
+</script>
+ 
 </body>
 </html>
