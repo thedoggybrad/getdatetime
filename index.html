@@ -40,36 +40,9 @@
     <link rel="stylesheet" href="https://thedoggybrad.github.io/getdatetime/resources/slider.css" />
     <script type="module" src="https://thedoggybrad.github.io/getdatetime/resources/dark-mode-toggle-playground.mjs"></script>
     <script type="module" src="https://thedoggybrad.github.io/getdatetime/resources/dark-mode-toggle.mjs"></script>
-<script>
-`use strict`;
-function refreshTime() {
-  const timeDisplay = document.getElementById("time");
-  const dateString = new Date().toLocaleTimeString();
-  const formattedString = dateString.replace(", ", " - ");
-  timeDisplay.textContent = formattedString;
-}
-  setInterval(refreshTime, 1000);
-</script>
-
-<script>
-`use strict`;
-function refreshTime() {
-  const timeDisplay = document.getElementById("date");
-  const dateString = new Date().toLocaleDateString();
-  const formattedString = dateString.replace(", ", " - ");
-  timeDisplay.textContent = formattedString;
-}
-  setInterval(refreshTime, 1000);
-</script>
-
-<script>
-const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-
-const d = new Date();
-let day = weekday[d.getDay()];
-document.getElementById("day").innerHTML = day;
-  setInterval(refreshTime, 1000);
-</script>
+<script src="time.js"></script>
+<script src="date.js"></script>
+<script src="day.js"></script>
 </head>
 <body>
    <dark-mode-toggle
