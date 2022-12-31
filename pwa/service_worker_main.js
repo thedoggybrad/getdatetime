@@ -17,8 +17,6 @@ const resourceList = [
 
 'https://thedoggybrad.github.io/getdatetime/resources/moon.svg',
 
-'https://thedoggybrad.github.io/getdatetime/script.js',
-
 'https://thedoggybrad.github.io/getdatetime/resources/slider.css',
 
 'https://thedoggybrad.github.io/getdatetime/resources/sun.svg'
