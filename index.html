@@ -52,6 +52,11 @@
         appearance="toggle"
         remember="Remember this"
       ></dark-mode-toggle>
+<script>
+// Get current day
+      let day1 = new Date().toLocaleString('en-US', { weekday: 'long',});
+      document.getElementById("day").innerHTML = day1; //current day of the week
+</script>
       
 <center><h1>What is my current date and time?</h1></center>
 
