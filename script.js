@@ -7,7 +7,6 @@ function refreshTime() {
 }
   setInterval(refreshTime, 1000);
 
-`use strict`;
 function refreshTime() {
   const timeDisplay = document.getElementById("date");
   const dateString = new Date().toLocaleDateString();
