@@ -48,9 +48,10 @@
         appearance="toggle"
       ></dark-mode-toggle>
       
-<center><h1>What is my current date and time?</h1></center>
+<div class="center">
+<h1>What is my current date and time?</h1>
 
-<center><h1><span id="time"></span></h1></center>
+<h1><span id="time"></span></h1>
 <script>
 `use strict`;
 function refreshTime() {
@@ -62,9 +63,8 @@ function refreshTime() {
   setInterval(refreshTime, 1000);
 </script>
 
-<div></div>
 
-<center><h1><span id="date"></span></h1></center>
+<h1><span id="date"></span></h1>
 <script>
 `use strict`;
 function refreshTime() {
@@ -76,7 +76,7 @@ function refreshTime() {
   setInterval(refreshTime, 1000);
 </script>
 
-<center><h2 id="day"></h2></center>
+<h2 id="day"></h2>
 
 <script>
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -87,14 +87,15 @@ document.getElementById("day").innerHTML = day;
   setInterval(refreshTime, 1000);
 </script>
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<center><footer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
   <p>©<a href="https://github.com/thedoggybrad/">TheDoggyBrad</a>. Provided under <a href="https://github.com/thedoggybrad/getdatetime/blob/main/License/">ISC License</a>. </p>
-</footer></center>
+</footer>
+</div>
  
    <script src="pwa/service_worker_check.js"></script>
   <script src="pwa/service_worker_main.js"></script>
