@@ -1,3 +1,5 @@
+<img src="resources/favicon.png" alt="LOGO" width="64"  height="64">
+
 # getdatetime
 A simple HTML Code that gets your current time in HH:MM:SS:AM/PM, MM/DD/YYYY and Day of the Week format, with dark mode.
 <br>
