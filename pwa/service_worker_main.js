@@ -5,7 +5,7 @@ const CACHE_NAME = 'getdatetime';
 const resourceList = [
   '/',
   'https://thedoggybrad.github.io/getdatetime/index.html',
-  'https://thedoggybrad.github.io/getdatetime/resources/favicon.ico',
+  'https://thedoggybrad.github.io/getdatetime/resources/favicon.png',
 
 'https://thedoggybrad.github.io/getdatetime/resources/dark-mode-toggle-playground.mjs',
 
